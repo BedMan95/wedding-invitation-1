@@ -399,7 +399,7 @@ export const comment = (() => {
 
         const presence = document.getElementById('form-presence');
         if (!id && presence && presence.value === '0') {
-            alert('Please select your attendance status.');
+            alert('Silahkan pilih jenis konfirmasi kehadiran anda.');
             return;
         }
 
